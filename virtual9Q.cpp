@@ -16,7 +16,6 @@ int main(){
     while(times--){
         int sleepTime = rand()%20000 + 5000;
         cout << sleepTime << " ";
-        sleepTime = sleepTime/5;
         Sleep(sleepTime);
         int rank = rand()%10;
         cout << rank << endl;
